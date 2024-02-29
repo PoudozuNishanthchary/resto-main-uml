@@ -4,6 +4,11 @@
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
   <packagedElement xmi:type="uml:Package" xmi:id="_XcHJANabEe6gYIIH_OFmLg" name="package">
-    <packagedElement xmi:type="uml:Class" xmi:id="_hjm9cNabEe6gYIIH_OFmLg" name="Test"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hjm9cNabEe6gYIIH_OFmLg" name="Test">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_RpWqwNacEe6gYIIH_OFmLg" name="testName">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_Uh8BcNacEe6gYIIH_OFmLg" name="void"/>
   </packagedElement>
 </uml:Model>
