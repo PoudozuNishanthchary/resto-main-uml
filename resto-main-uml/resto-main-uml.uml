@@ -729,6 +729,7 @@
     <packagedElement xmi:type="uml:Realization" xmi:id="_6djRMNgJEe6ksOLY9mOnVA" client="_80fUoNdfEe6gl-mgkRUsVg" supplier="_X3y4ANdiEe6gl-mgkRUsVg"/>
     <packagedElement xmi:type="uml:Realization" xmi:id="_qaK3sNgKEe6ksOLY9mOnVA" client="_KRE1kNdgEe6gl-mgkRUsVg" supplier="_QyamMNdhEe6gl-mgkRUsVg"/>
     <packagedElement xmi:type="uml:Realization" xmi:id="_2KfOoNgLEe6ksOLY9mOnVA" client="_d6QboNdgEe6gl-mgkRUsVg" supplier="_Yq-TUNdgEe6gl-mgkRUsVg"/>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_gkQbINgNEe6ksOLY9mOnVA" client="_gvFTsNdgEe6gl-mgkRUsVg" supplier="_X3y4ANdiEe6gl-mgkRUsVg"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_3dwwANftEe6ksOLY9mOnVA" visibility="public" memberEnd="_3eMN0NftEe6ksOLY9mOnVA _3eS7gNftEe6ksOLY9mOnVA" navigableOwnedEnd="_3eMN0NftEe6ksOLY9mOnVA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3eH8YNftEe6ksOLY9mOnVA" source="org.eclipse.papyrus">
@@ -913,6 +914,34 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_cbGp4dgMEe6ksOLY9mOnVA" type="_d6QboNdgEe6gl-mgkRUsVg" association="_ca9f8NgMEe6ksOLY9mOnVA"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_cbDmkdgMEe6ksOLY9mOnVA" type="_80fUoNdfEe6gl-mgkRUsVg" association="_ca9f8NgMEe6ksOLY9mOnVA">
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fe3V0NgMEe6ksOLY9mOnVA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_tC5ikNgMEe6ksOLY9mOnVA" memberEnd="_tDDTkdgMEe6ksOLY9mOnVA _tDFIwtgMEe6ksOLY9mOnVA" navigableOwnedEnd="_tDDTkdgMEe6ksOLY9mOnVA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tDCsgNgMEe6ksOLY9mOnVA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tDDTkNgMEe6ksOLY9mOnVA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_tDFIwtgMEe6ksOLY9mOnVA" type="_gvFTsNdgEe6gl-mgkRUsVg" association="_tC5ikNgMEe6ksOLY9mOnVA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_tDDTkdgMEe6ksOLY9mOnVA" type="_uEagoNdhEe6gl-mgkRUsVg" aggregation="shared" association="_tC5ikNgMEe6ksOLY9mOnVA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_u4ADANgMEe6ksOLY9mOnVA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_2sXXMNgMEe6ksOLY9mOnVA" memberEnd="_2sZzcNgMEe6ksOLY9mOnVA _2saagdgMEe6ksOLY9mOnVA" navigableOwnedEnd="_2sZzcNgMEe6ksOLY9mOnVA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2sZMYNgMEe6ksOLY9mOnVA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2sZMYdgMEe6ksOLY9mOnVA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_2saagdgMEe6ksOLY9mOnVA" type="_gvFTsNdgEe6gl-mgkRUsVg" association="_2sXXMNgMEe6ksOLY9mOnVA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_2sZzcNgMEe6ksOLY9mOnVA" type="_hjm9cNabEe6gYIIH_OFmLg" aggregation="shared" association="_2sXXMNgMEe6ksOLY9mOnVA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5t2yQNgMEe6ksOLY9mOnVA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5sNzgNgMEe6ksOLY9mOnVA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_N18h4NgNEe6ksOLY9mOnVA" memberEnd="_N2FEwtgNEe6ksOLY9mOnVA _N2GS4tgNEe6ksOLY9mOnVA" navigableOwnedEnd="_N2FEwtgNEe6ksOLY9mOnVA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_N2FEwNgNEe6ksOLY9mOnVA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_N2FEwdgNEe6ksOLY9mOnVA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_N2GS4tgNEe6ksOLY9mOnVA" type="_gvFTsNdgEe6gl-mgkRUsVg" association="_N18h4NgNEe6ksOLY9mOnVA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_N2FEwtgNEe6ksOLY9mOnVA" type="_80fUoNdfEe6gl-mgkRUsVg" aggregation="shared" association="_N18h4NgNEe6ksOLY9mOnVA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_N2GS4dgNEe6ksOLY9mOnVA" value="*"/>
     </ownedEnd>
   </packagedElement>
 </uml:Model>
