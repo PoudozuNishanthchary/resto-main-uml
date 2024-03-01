@@ -581,7 +581,7 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_X6c_4NdhEe6gl-mgkRUsVg" name="Seat"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_bHKMcNdhEe6gl-mgkRUsVg" name="ShiftReport"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_e6U8ENdhEe6gl-mgkRUsVg" name="Staff"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_rDBMMNdhEe6gl-mgkRUsVg" name="SystemController"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_rDBMMNdhEe6gl-mgkRUsVg" name="SystemController" isAbstract="true"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_uEagoNdhEe6gl-mgkRUsVg" name="Table">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_YhJVkNfnEe6ksOLY9mOnVA" name="tableName" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -624,9 +624,44 @@
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_xDmOkNdhEe6gl-mgkRUsVg" name="TableReservationAction"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_1D-TwNdhEe6gl-mgkRUsVg" name="UIManager"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_4gQ0cNdhEe6gl-mgkRUsVg" name="User"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1D-TwNdhEe6gl-mgkRUsVg" name="UIManager" isAbstract="true"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_4gQ0cNdhEe6gl-mgkRUsVg" name="User">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_8X2y0NfqEe6ksOLY9mOnVA" name="firstName" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_-qYPENfqEe6ksOLY9mOnVA" name="lastName" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_A8h34NfrEe6ksOLY9mOnVA" name="username" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_Jbck8NfrEe6ksOLY9mOnVA" name="User">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_Jbck8dfrEe6ksOLY9mOnVA" name="firstName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_Jbck8tfrEe6ksOLY9mOnVA" name="lastName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_Jbck89frEe6ksOLY9mOnVA" name="username">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_S4cD0NfrEe6ksOLY9mOnVA" name="getFirstName">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_S4cD0dfrEe6ksOLY9mOnVA" direction="return" effect="read">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_WENcQNfrEe6ksOLY9mOnVA" name="getLastName">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_WENcQdfrEe6ksOLY9mOnVA" direction="return" effect="read">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ZimOsNfrEe6ksOLY9mOnVA" name="getUsername">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ZimOsdfrEe6ksOLY9mOnVA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_7OCpUNdhEe6gl-mgkRUsVg" name="UserManagement"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_-UNJANdhEe6gl-mgkRUsVg" name="UserReport"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_BG220NdiEe6gl-mgkRUsVg" name="Waiter"/>
