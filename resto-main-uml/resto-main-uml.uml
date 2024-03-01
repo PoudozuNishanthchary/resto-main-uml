@@ -758,6 +758,80 @@
     <packagedElement xmi:type="uml:Realization" xmi:id="_qaK3sNgKEe6ksOLY9mOnVA" client="_KRE1kNdgEe6gl-mgkRUsVg" supplier="_QyamMNdhEe6gl-mgkRUsVg"/>
     <packagedElement xmi:type="uml:Realization" xmi:id="_2KfOoNgLEe6ksOLY9mOnVA" client="_d6QboNdgEe6gl-mgkRUsVg" supplier="_Yq-TUNdgEe6gl-mgkRUsVg"/>
     <packagedElement xmi:type="uml:Realization" xmi:id="_gkQbINgNEe6ksOLY9mOnVA" client="_gvFTsNdgEe6gl-mgkRUsVg" supplier="_X3y4ANdiEe6gl-mgkRUsVg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_7izBANgUEe6ksOLY9mOnVA" name="CopyOf_User_60">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_7izBAdgUEe6ksOLY9mOnVA" name="firstName" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_7izBAtgUEe6ksOLY9mOnVA" name="lastName" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_7izBA9gUEe6ksOLY9mOnVA" name="username" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_7izBBNgUEe6ksOLY9mOnVA" name="User">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_7izBBdgUEe6ksOLY9mOnVA" name="firstName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_7izBBtgUEe6ksOLY9mOnVA" name="lastName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_7izBB9gUEe6ksOLY9mOnVA" name="username">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_7izBCNgUEe6ksOLY9mOnVA" name="getFirstName">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_7izBCdgUEe6ksOLY9mOnVA" direction="return" effect="read">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_7izBCtgUEe6ksOLY9mOnVA" name="getLastName">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_7izBC9gUEe6ksOLY9mOnVA" direction="return" effect="read">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_7izBDNgUEe6ksOLY9mOnVA" name="getUsername">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_7izBDdgUEe6ksOLY9mOnVA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_-FK3INgUEe6ksOLY9mOnVA" name="CopyOf_User_61">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_-FK3IdgUEe6ksOLY9mOnVA" name="firstName" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_-FK3ItgUEe6ksOLY9mOnVA" name="lastName" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_-FK3I9gUEe6ksOLY9mOnVA" name="username" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_-FK3JNgUEe6ksOLY9mOnVA" name="User">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_-FK3JdgUEe6ksOLY9mOnVA" name="firstName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_-FK3JtgUEe6ksOLY9mOnVA" name="lastName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_-FK3J9gUEe6ksOLY9mOnVA" name="username">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_-FK3KNgUEe6ksOLY9mOnVA" name="getFirstName">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_-FK3KdgUEe6ksOLY9mOnVA" direction="return" effect="read">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_-FK3KtgUEe6ksOLY9mOnVA" name="getLastName">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_-FK3K9gUEe6ksOLY9mOnVA" direction="return" effect="read">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_-FK3LNgUEe6ksOLY9mOnVA" name="getUsername">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_-FK3LdgUEe6ksOLY9mOnVA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_3dwwANftEe6ksOLY9mOnVA" visibility="public" memberEnd="_3eMN0NftEe6ksOLY9mOnVA _3eS7gNftEe6ksOLY9mOnVA" navigableOwnedEnd="_3eMN0NftEe6ksOLY9mOnVA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3eH8YNftEe6ksOLY9mOnVA" source="org.eclipse.papyrus">
@@ -1002,4 +1076,5 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_P1qhcNgOEe6ksOLY9mOnVA" value="*"/>
     </ownedEnd>
   </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_GwzqMNgYEe6ksOLY9mOnVA" name="package2"/>
 </uml:Model>
