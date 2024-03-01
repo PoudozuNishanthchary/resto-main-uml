@@ -332,7 +332,50 @@
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_rCd2JNevEe6ksOLY9mOnVA" type="_Uh8BcNacEe6gYIIH_OFmLg" direction="return" effect="update"/>
       </ownedReception>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_d6QboNdgEe6gl-mgkRUsVg" name="EventFloor"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_d6QboNdgEe6gl-mgkRUsVg" name="EventFloor">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_OZqNMNewEe6ksOLY9mOnVA" name="listOfEvents" visibility="private" type="_k1iO4NdkEe6gl-mgkRUsVg"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_cxBUUNewEe6ksOLY9mOnVA" name="EventFloor">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_cxBUUdewEe6ksOLY9mOnVA" type="_okx2QNewEe6ksOLY9mOnVA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_5hOeYNeyEe6ksOLY9mOnVA" name="getListOfEvents">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_5hOeYdeyEe6ksOLY9mOnVA" type="_k1iO4NdkEe6gl-mgkRUsVg" direction="return" effect="read"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_BiUnANezEe6ksOLY9mOnVA" name="getEventbyEventTitle">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_BiUnAdezEe6ksOLY9mOnVA" name="eventTitle" effect="read">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_BiUnAtezEe6ksOLY9mOnVA" type="_QWiX8NdgEe6gl-mgkRUsVg" direction="return" effect="read"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_MTayENezEe6ksOLY9mOnVA" name="getEventsByDate">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_MTayEdezEe6ksOLY9mOnVA" name="searchDate" type="_5W9hANdjEe6gl-mgkRUsVg" effect="read"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_MTayEtezEe6ksOLY9mOnVA" type="_k1iO4NdkEe6gl-mgkRUsVg" direction="return" effect="read"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_cJ7-0NezEe6ksOLY9mOnVA" name="getEventsByDateRange">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_cJ7-0dezEe6ksOLY9mOnVA" name="dateFrom" type="_5W9hANdjEe6gl-mgkRUsVg" effect="read"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_cJ7-0tezEe6ksOLY9mOnVA" name="dateTo" type="_5W9hANdjEe6gl-mgkRUsVg" effect="read"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_cJ7-09ezEe6ksOLY9mOnVA" type="_k1iO4NdkEe6gl-mgkRUsVg" direction="return" effect="read"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_pSvBENezEe6ksOLY9mOnVA" name="getEventsByDateAndTimeRange">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_pSvBEdezEe6ksOLY9mOnVA" name="searchDate" type="_5W9hANdjEe6gl-mgkRUsVg" effect="read"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_pSvBEtezEe6ksOLY9mOnVA" name="timeFrom" type="_6k_aYNdjEe6gl-mgkRUsVg" effect="read"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_pSvBE9ezEe6ksOLY9mOnVA" name="timeTo" type="_6k_aYNdjEe6gl-mgkRUsVg" effect="read"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_pSvBFNezEe6ksOLY9mOnVA" type="_k1iO4NdkEe6gl-mgkRUsVg" direction="return" effect="read"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_8w-p0NewEe6ksOLY9mOnVA" name="createNewEvent" isAbstract="true">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_8w-p0dewEe6ksOLY9mOnVA" name="user" type="_4gQ0cNdhEe6gl-mgkRUsVg"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_8w-p0tewEe6ksOLY9mOnVA" name="newEvent" type="_QWiX8NdgEe6gl-mgkRUsVg"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_8w-p09ewEe6ksOLY9mOnVA" type="_Uh8BcNacEe6gYIIH_OFmLg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_EmWDkNexEe6ksOLY9mOnVA" name="removePastEvent">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_EmWDkdexEe6ksOLY9mOnVA" name="event" type="_QWiX8NdgEe6gl-mgkRUsVg" effect="delete"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_EmWDktexEe6ksOLY9mOnVA" type="_Uh8BcNacEe6gYIIH_OFmLg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_LxPkANexEe6ksOLY9mOnVA" name="removeCustomerFromEvent">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_LxPkAdexEe6ksOLY9mOnVA" name="event" type="_QWiX8NdgEe6gl-mgkRUsVg" effect="delete"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_LxPkAtexEe6ksOLY9mOnVA" name="customer" type="_80fUoNdfEe6gl-mgkRUsVg" effect="delete"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_LxPkA9exEe6ksOLY9mOnVA" type="_Uh8BcNacEe6gYIIH_OFmLg" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_gvFTsNdgEe6gl-mgkRUsVg" name="Floor"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_jeRd0NdgEe6gl-mgkRUsVg" name="FloorReport"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_mk2NMNdgEe6gl-mgkRUsVg" name="DeliveryOrder"/>
@@ -375,5 +418,6 @@
     <packagedElement xmi:type="uml:DataType" xmi:id="_4iycoNdkEe6gl-mgkRUsVg" name="Queue&lt;Booking>"/>
     <packagedElement xmi:type="uml:DataType" xmi:id="_C6hFcNdlEe6gl-mgkRUsVg" name="List&lt;Seat>"/>
     <packagedElement xmi:type="uml:DataType" xmi:id="_0ts9QNdrEe6gl-mgkRUsVg" name="Object"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_okx2QNewEe6ksOLY9mOnVA" name=""/>
   </packagedElement>
 </uml:Model>
