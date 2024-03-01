@@ -6,6 +6,89 @@
   <packagedElement xmi:type="uml:Package" xmi:id="_XcHJANabEe6gYIIH_OFmLg" name="package">
     <packagedElement xmi:type="uml:Class" xmi:id="_hjm9cNabEe6gYIIH_OFmLg" name="Booking">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_RpWqwNacEe6gYIIH_OFmLg" name="customer" visibility="private" type="_80fUoNdfEe6gl-mgkRUsVg"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_MIRq8NdkEe6gl-mgkRUsVg" name="bookingDate" visibility="private" type="_5W9hANdjEe6gl-mgkRUsVg"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_OpC-kNdkEe6gl-mgkRUsVg" name="bookingTime" visibility="private" type="_6k_aYNdjEe6gl-mgkRUsVg"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_RdifcNdkEe6gl-mgkRUsVg" name="numOfGuests" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_U_ProNdkEe6gl-mgkRUsVg" name="bookingLengthInHour" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_YiU7YNdlEe6gl-mgkRUsVg" name="tablePreference" visibility="private" type="_eIHUoNdkEe6gl-mgkRUsVg"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_bQE7ENdlEe6gl-mgkRUsVg" name="bookingStatus" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_6djDsNdlEe6gl-mgkRUsVg" name="Booking">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_6djqwNdlEe6gl-mgkRUsVg" name="customer" type="_80fUoNdfEe6gl-mgkRUsVg"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_NaLQUNdnEe6gl-mgkRUsVg" name="bookingDate" type="_5W9hANdjEe6gl-mgkRUsVg"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_6djqwtdlEe6gl-mgkRUsVg" name="bookingTime" type="_6k_aYNdjEe6gl-mgkRUsVg"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_6djqw9dlEe6gl-mgkRUsVg" name="numOfGuests">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_6djqxNdlEe6gl-mgkRUsVg" name="tableRequest" type="_eIHUoNdkEe6gl-mgkRUsVg"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_EN7_sNdmEe6gl-mgkRUsVg" name="Booking">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_EN7_sddmEe6gl-mgkRUsVg" name="customer" type="_80fUoNdfEe6gl-mgkRUsVg"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_EN7_stdmEe6gl-mgkRUsVg" name="bookingDate" type="_5W9hANdjEe6gl-mgkRUsVg"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_IT03ANdmEe6gl-mgkRUsVg" name="bookingTime" type="_6k_aYNdjEe6gl-mgkRUsVg"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_KSXnUNdmEe6gl-mgkRUsVg" name="numOfGuests">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_MBn-cNdmEe6gl-mgkRUsVg" name="tableRequest" type="_eIHUoNdkEe6gl-mgkRUsVg"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_OYnD8NdmEe6gl-mgkRUsVg" name="bookingLength">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_Rp-uENdmEe6gl-mgkRUsVg" name="getCustomer">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_Rp-uEddmEe6gl-mgkRUsVg" type="_80fUoNdfEe6gl-mgkRUsVg" direction="return" effect="read"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_cwkoANdmEe6gl-mgkRUsVg" name="getCustomerId">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_cwkoAddmEe6gl-mgkRUsVg" direction="return" effect="read">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ih9-4NdmEe6gl-mgkRUsVg" name="getBookingDate">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ih9-4ddmEe6gl-mgkRUsVg" type="_5W9hANdjEe6gl-mgkRUsVg" direction="return" effect="read"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_qLvMoNdmEe6gl-mgkRUsVg" name="getBookingTime">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_qLvModdmEe6gl-mgkRUsVg" type="_6k_aYNdjEe6gl-mgkRUsVg" direction="return" effect="read"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_tljBENdmEe6gl-mgkRUsVg" name="getNumberOfGuests">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_tljBEddmEe6gl-mgkRUsVg" direction="return" effect="read">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_y_VJMNdmEe6gl-mgkRUsVg" name="getBookingLengthInHour">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_y_VJMddmEe6gl-mgkRUsVg" direction="return" effect="read">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_4WNuUNdmEe6gl-mgkRUsVg" name="getTablePreference">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_4WNuUddmEe6gl-mgkRUsVg" type="_eIHUoNdkEe6gl-mgkRUsVg" direction="return" effect="read"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_8QCfkNdmEe6gl-mgkRUsVg" name="getBookingStatus">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_8QCfkddmEe6gl-mgkRUsVg" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_VfCeoNdnEe6gl-mgkRUsVg" name="checksTableAvailability">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_VfCeoddnEe6gl-mgkRUsVg" name="tableRequest" type="_eIHUoNdkEe6gl-mgkRUsVg" effect="read"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ci6xENdnEe6gl-mgkRUsVg" name="checksTableAvailability">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ci6xEddnEe6gl-mgkRUsVg" name="tableRequest" type="_eIHUoNdkEe6gl-mgkRUsVg" effect="read"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ci6xEtdnEe6gl-mgkRUsVg" name="bookingLength" effect="read">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_kDNSsNdnEe6gl-mgkRUsVg" name="notifyCustomer" isAbstract="true">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_kDNSsddnEe6gl-mgkRUsVg" name="customer" type="_80fUoNdfEe6gl-mgkRUsVg"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_otJSQNdnEe6gl-mgkRUsVg" name="newNotification" type="_Borm8NdhEe6gl-mgkRUsVg"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_5XTicNdnEe6gl-mgkRUsVg" name="updateBookingStatus">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_5XTicddnEe6gl-mgkRUsVg" name="newStatus" effect="update">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:DataType" xmi:id="_Uh8BcNacEe6gYIIH_OFmLg" name="void"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_80fUoNdfEe6gl-mgkRUsVg" name="Customer"/>
@@ -47,5 +130,15 @@
     <packagedElement xmi:type="uml:Interface" xmi:id="_X3y4ANdiEe6gl-mgkRUsVg" name="TableReservationAction"/>
     <packagedElement xmi:type="uml:DataType" xmi:id="_5W9hANdjEe6gl-mgkRUsVg" name="LocaleDate"/>
     <packagedElement xmi:type="uml:DataType" xmi:id="_6k_aYNdjEe6gl-mgkRUsVg" name="LocaleTime"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_eIHUoNdkEe6gl-mgkRUsVg" name="List&lt;Table>"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_jfjTYNdkEe6gl-mgkRUsVg" name="List&lt;Booking>"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_k1iO4NdkEe6gl-mgkRUsVg" name="List&lt;Event>"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_l2Ee0NdkEe6gl-mgkRUsVg" name="List&lt;Order>"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_nY3uUNdkEe6gl-mgkRUsVg" name="List&lt;Notification>"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_rrvRsNdkEe6gl-mgkRUsVg" name="List&lt;FoodDrink>"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_urHM4NdkEe6gl-mgkRUsVg" name="List&lt;User>"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_yrLwENdkEe6gl-mgkRUsVg" name="HashMap&lt;Table, List&lt;Booking>>"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_4iycoNdkEe6gl-mgkRUsVg" name="Queue&lt;Booking>"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_C6hFcNdlEe6gl-mgkRUsVg" name="List&lt;Seat>"/>
   </packagedElement>
 </uml:Model>
