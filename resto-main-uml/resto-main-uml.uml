@@ -521,7 +521,42 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_5bs-cNdgEe6gl-mgkRUsVg" name="Main"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_70Z7MNdgEe6gl-mgkRUsVg" name="Manager"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_-tHNsNdgEe6gl-mgkRUsVg" name="Menu"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_Borm8NdhEe6gl-mgkRUsVg" name="Notification"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Borm8NdhEe6gl-mgkRUsVg" name="Notification">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_CljzkNfdEe6ksOLY9mOnVA" name="notificationDate" visibility="private" type="_5W9hANdjEe6gl-mgkRUsVg"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_FMk5INfdEe6ksOLY9mOnVA" name="notificationTime" visibility="private" type="_5W9hANdjEe6gl-mgkRUsVg"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_HlzaUNfdEe6ksOLY9mOnVA" name="messageBody" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_N_vX4NfdEe6ksOLY9mOnVA" name="notificationType" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_h0i_INfdEe6ksOLY9mOnVA" name="Notification">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_h0i_IdfdEe6ksOLY9mOnVA" name="notificationDate" type="_5W9hANdjEe6gl-mgkRUsVg"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_h0i_ItfdEe6ksOLY9mOnVA" name="notificationTime" type="_6k_aYNdjEe6gl-mgkRUsVg" effect="read"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_h0i_I9fdEe6ksOLY9mOnVA" name="messageBody" effect="read">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_h0i_JNfdEe6ksOLY9mOnVA" name="notificationType" effect="read">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_o4-rMNfdEe6ksOLY9mOnVA" name="getNotificationDate">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_o4-rMdfdEe6ksOLY9mOnVA" type="_5W9hANdjEe6gl-mgkRUsVg" direction="return" effect="read"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_udmKUNfdEe6ksOLY9mOnVA" name="getNotificationTime">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_udmKUdfdEe6ksOLY9mOnVA" type="_6k_aYNdjEe6gl-mgkRUsVg" direction="return" effect="read"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_yXMSENfdEe6ksOLY9mOnVA" name="getNotificationBody">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_yXMSEdfdEe6ksOLY9mOnVA" direction="return" effect="read">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_2hpgUNfdEe6ksOLY9mOnVA" name="getNotificationType">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_2hpgUdfdEe6ksOLY9mOnVA" direction="return" effect="read">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_Ggg4kNdhEe6gl-mgkRUsVg" name="NotifyAction"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_Jd4ooNdhEe6gl-mgkRUsVg" name="OfficeParty"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_MygbENdhEe6gl-mgkRUsVg" name="Order"/>
