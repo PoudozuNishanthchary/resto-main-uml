@@ -5,9 +5,7 @@
   </packageImport>
   <packagedElement xmi:type="uml:Package" xmi:id="_XcHJANabEe6gYIIH_OFmLg" name="package">
     <packagedElement xmi:type="uml:Class" xmi:id="_hjm9cNabEe6gYIIH_OFmLg" name="Booking">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_RpWqwNacEe6gYIIH_OFmLg" name="testName">
-        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_RpWqwNacEe6gYIIH_OFmLg" name="customer" visibility="private" type="_80fUoNdfEe6gl-mgkRUsVg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:DataType" xmi:id="_Uh8BcNacEe6gYIIH_OFmLg" name="void"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_80fUoNdfEe6gl-mgkRUsVg" name="Customer"/>
@@ -47,5 +45,7 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_-UNJANdhEe6gl-mgkRUsVg" name="UserReport"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_BG220NdiEe6gl-mgkRUsVg" name="Waiter"/>
     <packagedElement xmi:type="uml:Interface" xmi:id="_X3y4ANdiEe6gl-mgkRUsVg" name="TableReservationAction"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_5W9hANdjEe6gl-mgkRUsVg" name="LocaleDate"/>
+    <packagedElement xmi:type="uml:DataType" xmi:id="_6k_aYNdjEe6gl-mgkRUsVg" name="LocaleTime"/>
   </packagedElement>
 </uml:Model>
