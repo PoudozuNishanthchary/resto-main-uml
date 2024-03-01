@@ -726,6 +726,7 @@
     <packagedElement xmi:type="uml:Realization" xmi:id="_WcmygNgJEe6ksOLY9mOnVA" client="_80fUoNdfEe6gl-mgkRUsVg" supplier="_QyamMNdhEe6gl-mgkRUsVg"/>
     <packagedElement xmi:type="uml:Realization" xmi:id="_dZIfwNgJEe6ksOLY9mOnVA" client="_80fUoNdfEe6gl-mgkRUsVg" supplier="_Yq-TUNdgEe6gl-mgkRUsVg"/>
     <packagedElement xmi:type="uml:Realization" xmi:id="_6djRMNgJEe6ksOLY9mOnVA" client="_80fUoNdfEe6gl-mgkRUsVg" supplier="_X3y4ANdiEe6gl-mgkRUsVg"/>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_qaK3sNgKEe6ksOLY9mOnVA" client="_KRE1kNdgEe6gl-mgkRUsVg" supplier="_QyamMNdhEe6gl-mgkRUsVg"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_3dwwANftEe6ksOLY9mOnVA" visibility="public" memberEnd="_3eMN0NftEe6ksOLY9mOnVA _3eS7gNftEe6ksOLY9mOnVA" navigableOwnedEnd="_3eMN0NftEe6ksOLY9mOnVA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3eH8YNftEe6ksOLY9mOnVA" source="org.eclipse.papyrus">
@@ -872,5 +873,16 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Muq4INgKEe6ksOLY9mOnVA" value="*"/>
     </ownedEnd>
     <ownedEnd xmi:type="uml:Property" xmi:id="_JA3JoNgKEe6ksOLY9mOnVA" type="_-tHNsNdgEe6gl-mgkRUsVg" association="_JAqVUNgKEe6ksOLY9mOnVA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_aLVRkNgKEe6ksOLY9mOnVA" memberEnd="_aLlJMNgKEe6ksOLY9mOnVA _aLmXUtgKEe6ksOLY9mOnVA" navigableOwnedEnd="_aLlJMNgKEe6ksOLY9mOnVA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aLjUANgKEe6ksOLY9mOnVA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aLkiINgKEe6ksOLY9mOnVA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_aLmXUtgKEe6ksOLY9mOnVA" type="_KRE1kNdgEe6gl-mgkRUsVg" association="_aLVRkNgKEe6ksOLY9mOnVA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jUZH0NgKEe6ksOLY9mOnVA" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_aLlJMNgKEe6ksOLY9mOnVA" type="_MygbENdhEe6gl-mgkRUsVg" association="_aLVRkNgKEe6ksOLY9mOnVA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kK4D4NgKEe6ksOLY9mOnVA" value="*"/>
+    </ownedEnd>
   </packagedElement>
 </uml:Model>
