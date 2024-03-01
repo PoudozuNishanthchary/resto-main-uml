@@ -944,4 +944,13 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_N2GS4dgNEe6ksOLY9mOnVA" value="*"/>
     </ownedEnd>
   </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_uZnBYNgNEe6ksOLY9mOnVA" memberEnd="_uZ4uMNgNEe6ksOLY9mOnVA _uZ7xgNgNEe6ksOLY9mOnVA" navigableOwnedEnd="_uZ4uMNgNEe6ksOLY9mOnVA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_uZ3gENgNEe6ksOLY9mOnVA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_uZ3gEdgNEe6ksOLY9mOnVA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_uZ7xgNgNEe6ksOLY9mOnVA" type="_zT-LMNdgEe6gl-mgkRUsVg" association="_uZnBYNgNEe6ksOLY9mOnVA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_uZ4uMNgNEe6ksOLY9mOnVA" type="_MygbENdhEe6gl-mgkRUsVg" aggregation="shared" association="_uZnBYNgNEe6ksOLY9mOnVA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wh1SINgNEe6ksOLY9mOnVA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
 </uml:Model>
