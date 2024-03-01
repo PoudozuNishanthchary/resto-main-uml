@@ -314,23 +314,23 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_QWiX8NdgEe6gl-mgkRUsVg" name="Event"/>
     <packagedElement xmi:type="uml:Interface" xmi:id="_Yq-TUNdgEe6gl-mgkRUsVg" name="EventAction">
-      <ownedReception xmi:type="uml:Reception" xmi:id="_XulKoNevEe6ksOLY9mOnVA" name="createNewEvent" isAbstract="true">
-        <ownedParameter xmi:type="uml:Parameter" xmi:id="_XulKodevEe6ksOLY9mOnVA" name="newEvent" type="_QWiX8NdgEe6gl-mgkRUsVg"/>
-        <ownedParameter xmi:type="uml:Parameter" xmi:id="_XulKotevEe6ksOLY9mOnVA" type="_QWiX8NdgEe6gl-mgkRUsVg" direction="return"/>
-      </ownedReception>
-      <ownedReception xmi:type="uml:Reception" xmi:id="_f7COsNevEe6ksOLY9mOnVA" name="createNewEvent" isAbstract="true">
-        <ownedParameter xmi:type="uml:Parameter" xmi:id="_f7COsdevEe6ksOLY9mOnVA" name="user" type="_4gQ0cNdhEe6gl-mgkRUsVg"/>
-        <ownedParameter xmi:type="uml:Parameter" xmi:id="_f7COstevEe6ksOLY9mOnVA" name="newEvent" type="_QWiX8NdgEe6gl-mgkRUsVg"/>
-        <ownedParameter xmi:type="uml:Parameter" xmi:id="_f7COs9evEe6ksOLY9mOnVA" type="_Uh8BcNacEe6gYIIH_OFmLg" direction="return"/>
-      </ownedReception>
-      <ownedReception xmi:type="uml:Reception" xmi:id="_rCd2INevEe6ksOLY9mOnVA" name="editEventDetails">
-        <ownedParameter xmi:type="uml:Parameter" xmi:id="_rCd2IdevEe6ksOLY9mOnVA" name="event" type="_QWiX8NdgEe6gl-mgkRUsVg" effect="update"/>
-        <ownedParameter xmi:type="uml:Parameter" xmi:id="_rCd2ItevEe6ksOLY9mOnVA" name="attributeName" effect="update">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_vUjt4NflEe6ksOLY9mOnVA" name="createNewEvent">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_vUkU8NflEe6ksOLY9mOnVA" name="newEvent" type="_QWiX8NdgEe6gl-mgkRUsVg"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_vUkU8dflEe6ksOLY9mOnVA" type="_QWiX8NdgEe6gl-mgkRUsVg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_3xF1UNflEe6ksOLY9mOnVA" name="createNewEvent">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_3xF1UdflEe6ksOLY9mOnVA" name="user" type="_4gQ0cNdhEe6gl-mgkRUsVg"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_3xF1UtflEe6ksOLY9mOnVA" name="newEvent" type="_QWiX8NdgEe6gl-mgkRUsVg"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_3xF1U9flEe6ksOLY9mOnVA" type="_Uh8BcNacEe6gYIIH_OFmLg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_Gq3tANfmEe6ksOLY9mOnVA" name="editEventDetails">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_Gq3tAdfmEe6ksOLY9mOnVA" name="event" type="_QWiX8NdgEe6gl-mgkRUsVg" effect="update"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_Gq3tAtfmEe6ksOLY9mOnVA" name="attributeName" effect="update">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedParameter>
-        <ownedParameter xmi:type="uml:Parameter" xmi:id="_rCd2I9evEe6ksOLY9mOnVA" name="newValue" type="_0ts9QNdrEe6gl-mgkRUsVg" effect="update"/>
-        <ownedParameter xmi:type="uml:Parameter" xmi:id="_rCd2JNevEe6ksOLY9mOnVA" type="_Uh8BcNacEe6gYIIH_OFmLg" direction="return" effect="update"/>
-      </ownedReception>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_Gq3tA9fmEe6ksOLY9mOnVA" name="newValue" type="_0ts9QNdrEe6gl-mgkRUsVg" effect="update"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_Gq3tBNfmEe6ksOLY9mOnVA" type="_Uh8BcNacEe6gYIIH_OFmLg" direction="return"/>
+      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_d6QboNdgEe6gl-mgkRUsVg" name="EventFloor">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_OZqNMNewEe6ksOLY9mOnVA" name="listOfEvents" visibility="private" type="_k1iO4NdkEe6gl-mgkRUsVg">
@@ -558,16 +558,25 @@
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_Ggg4kNdhEe6gl-mgkRUsVg" name="NotifyAction">
-      <ownedReception xmi:type="uml:Reception" xmi:id="_JzLbYNfeEe6ksOLY9mOnVA" name="notifyCustomer" isAbstract="true">
-        <ownedParameter xmi:type="uml:Parameter" xmi:id="_JzMCcNfeEe6ksOLY9mOnVA" name="customer" type="_80fUoNdfEe6gl-mgkRUsVg"/>
-        <ownedParameter xmi:type="uml:Parameter" xmi:id="_JzMCcdfeEe6ksOLY9mOnVA" name="newNotification" type="_Borm8NdhEe6gl-mgkRUsVg"/>
-        <ownedParameter xmi:type="uml:Parameter" xmi:id="_JzMCctfeEe6ksOLY9mOnVA" type="_Uh8BcNacEe6gYIIH_OFmLg" direction="return"/>
-      </ownedReception>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_afg8MNfmEe6ksOLY9mOnVA" name="notifyCustomer">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_afhjQNfmEe6ksOLY9mOnVA" name="customer" type="_80fUoNdfEe6gl-mgkRUsVg"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_afhjQdfmEe6ksOLY9mOnVA" name="newNotification" type="_Borm8NdhEe6gl-mgkRUsVg"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_afhjQtfmEe6ksOLY9mOnVA" type="_Uh8BcNacEe6gYIIH_OFmLg" direction="return"/>
+      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_Jd4ooNdhEe6gl-mgkRUsVg" name="OfficeParty"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_MygbENdhEe6gl-mgkRUsVg" name="Order"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_PU9JsNdhEe6gl-mgkRUsVg" name="Report"/>
-    <packagedElement xmi:type="uml:Interface" xmi:id="_QyamMNdhEe6gl-mgkRUsVg" name="OrderAction"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_QyamMNdhEe6gl-mgkRUsVg" name="OrderAction">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_qBpNUNfmEe6ksOLY9mOnVA" name="createAnOrder">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_qBp0YNfmEe6ksOLY9mOnVA" name="newOrder" type="_MygbENdhEe6gl-mgkRUsVg"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_qBp0YdfmEe6ksOLY9mOnVA" type="_MygbENdhEe6gl-mgkRUsVg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_wfs14NfmEe6ksOLY9mOnVA" name="updateOrderStatus">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_wfs14dfmEe6ksOLY9mOnVA" name="completedOrder" type="_MygbENdhEe6gl-mgkRUsVg" effect="update"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_wfs14tfmEe6ksOLY9mOnVA" type="_Uh8BcNacEe6gYIIH_OFmLg" direction="return"/>
+      </ownedOperation>
+    </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_VUBwMNdhEe6gl-mgkRUsVg" name="Retirement"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_X6c_4NdhEe6gl-mgkRUsVg" name="Seat"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_bHKMcNdhEe6gl-mgkRUsVg" name="ShiftReport"/>
