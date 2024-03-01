@@ -103,6 +103,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:DataType" xmi:id="_Uh8BcNacEe6gYIIH_OFmLg" name="void"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_80fUoNdfEe6gl-mgkRUsVg" name="Customer">
+      <generalization xmi:type="uml:Generalization" xmi:id="_WUNcwNgPEe6ksOLY9mOnVA" general="_4gQ0cNdhEe6gl-mgkRUsVg"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_suZPQNdpEe6gl-mgkRUsVg" name="customerId" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
@@ -220,8 +221,11 @@
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_DCifYddtEe6gl-mgkRUsVg" type="_rrvRsNdkEe6gl-mgkRUsVg" direction="return" effect="read"/>
       </ownedOperation>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_EC-7oNdgEe6gl-mgkRUsVg" name="Birthday"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_EC-7oNdgEe6gl-mgkRUsVg" name="Birthday">
+      <generalization xmi:type="uml:Generalization" xmi:id="_tQ0X4NgOEe6ksOLY9mOnVA" general="_QWiX8NdgEe6gl-mgkRUsVg"/>
+    </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_HVEXcNdgEe6gl-mgkRUsVg" name="Chef">
+      <generalization xmi:type="uml:Generalization" xmi:id="_PaoV0NgPEe6ksOLY9mOnVA" general="_e6U8ENdhEe6gl-mgkRUsVg"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_hmp7QNdoEe6gl-mgkRUsVg" name="Chef">
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_hmp7QddoEe6gl-mgkRUsVg" name="firstName">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -247,6 +251,7 @@
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_KRE1kNdgEe6gl-mgkRUsVg" name="Driver">
+      <generalization xmi:type="uml:Generalization" xmi:id="_SAlEYNgPEe6ksOLY9mOnVA" general="_e6U8ENdhEe6gl-mgkRUsVg"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_1pY44NesEe6ksOLY9mOnVA" name="isAvailable" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
       </ownedAttribute>
@@ -334,6 +339,7 @@
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_d6QboNdgEe6gl-mgkRUsVg" name="EventFloor">
+      <generalization xmi:type="uml:Generalization" xmi:id="_3-mJMNgOEe6ksOLY9mOnVA" general="_gvFTsNdgEe6gl-mgkRUsVg"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_OZqNMNewEe6ksOLY9mOnVA" name="listOfEvents" visibility="private" type="_k1iO4NdkEe6gl-mgkRUsVg">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KRSmoNfREe6ksOLY9mOnVA"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KPkIUNfREe6ksOLY9mOnVA" value="*"/>
@@ -444,9 +450,15 @@
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_0G3L09fQEe6ksOLY9mOnVA" type="_Uh8BcNacEe6gYIIH_OFmLg" direction="return" effect="delete"/>
       </ownedOperation>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_jeRd0NdgEe6gl-mgkRUsVg" name="FloorReport"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_mk2NMNdgEe6gl-mgkRUsVg" name="DeliveryOrder"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_ptQvoNdgEe6gl-mgkRUsVg" name="TakeawayOrder"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jeRd0NdgEe6gl-mgkRUsVg" name="FloorReport">
+      <generalization xmi:type="uml:Generalization" xmi:id="_CkJyoNgPEe6ksOLY9mOnVA" general="_PU9JsNdhEe6gl-mgkRUsVg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mk2NMNdgEe6gl-mgkRUsVg" name="DeliveryOrder">
+      <generalization xmi:type="uml:Generalization" xmi:id="_-2hDQNgOEe6ksOLY9mOnVA" general="_MygbENdhEe6gl-mgkRUsVg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ptQvoNdgEe6gl-mgkRUsVg" name="TakeawayOrder">
+      <generalization xmi:type="uml:Generalization" xmi:id="_6f8EkNgOEe6ksOLY9mOnVA" general="_MygbENdhEe6gl-mgkRUsVg"/>
+    </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_wGPD4NdgEe6gl-mgkRUsVg" name="FoodDrink"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_zT-LMNdgEe6gl-mgkRUsVg" name="Kitchen">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_pBUlUNfREe6ksOLY9mOnVA" name="orderTickets" visibility="private" type="_l2Ee0NdkEe6gl-mgkRUsVg">
@@ -518,9 +530,13 @@
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_uZWY8dfcEe6ksOLY9mOnVA" type="_80fUoNdfEe6gl-mgkRUsVg" direction="return" effect="read"/>
       </ownedOperation>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_2NhyQNdgEe6gl-mgkRUsVg" name="KitchenReport"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_2NhyQNdgEe6gl-mgkRUsVg" name="KitchenReport">
+      <generalization xmi:type="uml:Generalization" xmi:id="_IWwDYNgPEe6ksOLY9mOnVA" general="_PU9JsNdhEe6gl-mgkRUsVg"/>
+    </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_5bs-cNdgEe6gl-mgkRUsVg" name="Main"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_70Z7MNdgEe6gl-mgkRUsVg" name="Manager"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_70Z7MNdgEe6gl-mgkRUsVg" name="Manager">
+      <generalization xmi:type="uml:Generalization" xmi:id="_Nb0fwNgPEe6ksOLY9mOnVA" general="_e6U8ENdhEe6gl-mgkRUsVg"/>
+    </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_-tHNsNdgEe6gl-mgkRUsVg" name="Menu"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_Borm8NdhEe6gl-mgkRUsVg" name="Notification">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_CljzkNfdEe6ksOLY9mOnVA" name="notificationDate" visibility="private" type="_5W9hANdjEe6gl-mgkRUsVg"/>
@@ -565,7 +581,9 @@
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_afhjQtfmEe6ksOLY9mOnVA" type="_Uh8BcNacEe6gYIIH_OFmLg" direction="return"/>
       </ownedOperation>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_Jd4ooNdhEe6gl-mgkRUsVg" name="OfficeParty"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Jd4ooNdhEe6gl-mgkRUsVg" name="OfficeParty">
+      <generalization xmi:type="uml:Generalization" xmi:id="_vSAMgNgOEe6ksOLY9mOnVA" general="_QWiX8NdgEe6gl-mgkRUsVg"/>
+    </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_MygbENdhEe6gl-mgkRUsVg" name="Order"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_PU9JsNdhEe6gl-mgkRUsVg" name="Report"/>
     <packagedElement xmi:type="uml:Interface" xmi:id="_QyamMNdhEe6gl-mgkRUsVg" name="OrderAction">
@@ -578,10 +596,16 @@
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_wfs14tfmEe6ksOLY9mOnVA" type="_Uh8BcNacEe6gYIIH_OFmLg" direction="return"/>
       </ownedOperation>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_VUBwMNdhEe6gl-mgkRUsVg" name="Retirement"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_VUBwMNdhEe6gl-mgkRUsVg" name="Retirement">
+      <generalization xmi:type="uml:Generalization" xmi:id="_xQ_BsNgOEe6ksOLY9mOnVA" general="_QWiX8NdgEe6gl-mgkRUsVg"/>
+    </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_X6c_4NdhEe6gl-mgkRUsVg" name="Seat"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_bHKMcNdhEe6gl-mgkRUsVg" name="ShiftReport"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_e6U8ENdhEe6gl-mgkRUsVg" name="Staff"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_bHKMcNdhEe6gl-mgkRUsVg" name="ShiftReport">
+      <generalization xmi:type="uml:Generalization" xmi:id="_Jk874NgPEe6ksOLY9mOnVA" general="_PU9JsNdhEe6gl-mgkRUsVg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_e6U8ENdhEe6gl-mgkRUsVg" name="Staff">
+      <generalization xmi:type="uml:Generalization" xmi:id="_UcMLMNgPEe6ksOLY9mOnVA" general="_4gQ0cNdhEe6gl-mgkRUsVg"/>
+    </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_rDBMMNdhEe6gl-mgkRUsVg" name="SystemController" isAbstract="true"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_uEagoNdhEe6gl-mgkRUsVg" name="Table">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_YhJVkNfnEe6ksOLY9mOnVA" name="tableName" visibility="private">
@@ -691,8 +715,12 @@
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_9ifvFNfsEe6ksOLY9mOnVA" type="_Uh8BcNacEe6gYIIH_OFmLg" direction="return" effect="update"/>
       </ownedOperation>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_-UNJANdhEe6gl-mgkRUsVg" name="UserReport"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_BG220NdiEe6gl-mgkRUsVg" name="Waiter"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_-UNJANdhEe6gl-mgkRUsVg" name="UserReport">
+      <generalization xmi:type="uml:Generalization" xmi:id="_GgwLENgPEe6ksOLY9mOnVA" general="_PU9JsNdhEe6gl-mgkRUsVg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_BG220NdiEe6gl-mgkRUsVg" name="Waiter">
+      <generalization xmi:type="uml:Generalization" xmi:id="_Q2Cj4NgPEe6ksOLY9mOnVA" general="_e6U8ENdhEe6gl-mgkRUsVg"/>
+    </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_X3y4ANdiEe6gl-mgkRUsVg" name="TableReservationAction">
       <ownedOperation xmi:type="uml:Operation" xmi:id="_HPIJQNfpEe6ksOLY9mOnVA" name="requestTableReservation">
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_HPIJQdfpEe6ksOLY9mOnVA" name="newBooking" type="_hjm9cNabEe6gYIIH_OFmLg"/>
