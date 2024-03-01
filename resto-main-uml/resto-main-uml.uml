@@ -447,7 +447,76 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_mk2NMNdgEe6gl-mgkRUsVg" name="DeliveryOrder"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_ptQvoNdgEe6gl-mgkRUsVg" name="TakeawayOrder"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_wGPD4NdgEe6gl-mgkRUsVg" name="FoodDrink"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_zT-LMNdgEe6gl-mgkRUsVg" name="Kitchen"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_zT-LMNdgEe6gl-mgkRUsVg" name="Kitchen">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_pBUlUNfREe6ksOLY9mOnVA" name="orderTickets" visibility="private" type="_l2Ee0NdkEe6gl-mgkRUsVg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_p2U6sNfREe6ksOLY9mOnVA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_p03iINfREe6ksOLY9mOnVA" value="*"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_w-ID0NfREe6ksOLY9mOnVA" name="addNewOrderTicket">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_w-Iq4NfREe6ksOLY9mOnVA" name="newOrder" type="_MygbENdhEe6gl-mgkRUsVg"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_w-Iq4dfREe6ksOLY9mOnVA" type="_Uh8BcNacEe6gYIIH_OFmLg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_4rFvgNfREe6ksOLY9mOnVA" name="getAllOrderTickets">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_4rFvgdfREe6ksOLY9mOnVA" type="_l2Ee0NdkEe6gl-mgkRUsVg" direction="return" effect="read"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_B_LxENfSEe6ksOLY9mOnVA" name="getPendingOrderTickets">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_B_LxEdfSEe6ksOLY9mOnVA" type="_l2Ee0NdkEe6gl-mgkRUsVg" direction="return" effect="read"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ML6q0NfSEe6ksOLY9mOnVA" name="getOrderListByDate">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ML6q0dfSEe6ksOLY9mOnVA" name="searchDate" type="_5W9hANdjEe6gl-mgkRUsVg" effect="read"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ML6q0tfSEe6ksOLY9mOnVA" type="_l2Ee0NdkEe6gl-mgkRUsVg" direction="return" effect="read"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_MJNmANfbEe6ksOLY9mOnVA" name="getOrderListByDateRange">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_MJNmAdfbEe6ksOLY9mOnVA" name="dateFrom" type="_5W9hANdjEe6gl-mgkRUsVg" effect="read"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_MJNmAtfbEe6ksOLY9mOnVA" name="dateTo" type="_5W9hANdjEe6gl-mgkRUsVg" effect="read"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_MJNmA9fbEe6ksOLY9mOnVA" type="_l2Ee0NdkEe6gl-mgkRUsVg" direction="return" effect="read"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_a_D_8NfbEe6ksOLY9mOnVA" name="getOrderListByDateAndTimeRange">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_a_D_8dfbEe6ksOLY9mOnVA" name="searchDate" type="_5W9hANdjEe6gl-mgkRUsVg" effect="read"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_a_D_8tfbEe6ksOLY9mOnVA" name="startTime" type="_6k_aYNdjEe6gl-mgkRUsVg" effect="read"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_a_D_89fbEe6ksOLY9mOnVA" name="endTime" type="_6k_aYNdjEe6gl-mgkRUsVg" effect="read"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_a_D_9NfbEe6ksOLY9mOnVA" type="_l2Ee0NdkEe6gl-mgkRUsVg" direction="return" effect="read"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_q8RqkNfbEe6ksOLY9mOnVA" name="getOrderListByStatus">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_q8RqkdfbEe6ksOLY9mOnVA" name="searchStatus" effect="read">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_q8RqktfbEe6ksOLY9mOnVA" type="_l2Ee0NdkEe6gl-mgkRUsVg" direction="return" effect="read"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_5ZuLkNfbEe6ksOLY9mOnVA" name="getOrderListByOrderType">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_5ZuLkdfbEe6ksOLY9mOnVA" name="searchType" effect="read">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_5ZuLktfbEe6ksOLY9mOnVA" type="_l2Ee0NdkEe6gl-mgkRUsVg" direction="return" effect="read"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_DpYdgNfcEe6ksOLY9mOnVA" name="getDescendingListOfMostItemOrdered">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_DpYdgdfcEe6ksOLY9mOnVA" name="numberLimit" effect="read">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_DpYdgtfcEe6ksOLY9mOnVA" type="_rrvRsNdkEe6gl-mgkRUsVg" direction="return" effect="read"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_NRqmYNfcEe6ksOLY9mOnVA" name="getAscendingListOfLeastItemOrdered">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_NRqmYdfcEe6ksOLY9mOnVA" name="numberLimit" effect="read">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_NRqmYtfcEe6ksOLY9mOnVA" type="_rrvRsNdkEe6gl-mgkRUsVg" direction="return" effect="read"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_WAuoQNfcEe6ksOLY9mOnVA" name="getLessPopularItemOrdered">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_WAuoQdfcEe6ksOLY9mOnVA" type="_wGPD4NdgEe6gl-mgkRUsVg" direction="return" effect="read"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_eil7oNfcEe6ksOLY9mOnVA" name="getMostPopularItemByType">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_eil7odfcEe6ksOLY9mOnVA" name="itemType" effect="read">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_eil7otfcEe6ksOLY9mOnVA" type="_wGPD4NdgEe6gl-mgkRUsVg" direction="return" effect="read"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_lqUzUNfcEe6ksOLY9mOnVA" name="getItemAsTheMostDailySpecial">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_lqUzUdfcEe6ksOLY9mOnVA" type="_wGPD4NdgEe6gl-mgkRUsVg" direction="return" effect="read"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_uZWY8NfcEe6ksOLY9mOnVA" name="getTheMostActiveCustomer">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_uZWY8dfcEe6ksOLY9mOnVA" type="_80fUoNdfEe6gl-mgkRUsVg" direction="return" effect="read"/>
+      </ownedOperation>
+    </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_2NhyQNdgEe6gl-mgkRUsVg" name="KitchenReport"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_5bs-cNdgEe6gl-mgkRUsVg" name="Main"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_70Z7MNdgEe6gl-mgkRUsVg" name="Manager"/>
