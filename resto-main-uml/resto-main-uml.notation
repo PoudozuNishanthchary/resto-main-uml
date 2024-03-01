@@ -184,7 +184,7 @@
         </children>
         <styles xmi:type="notation:CanonicalStyle" xmi:id="_TP-qUNacEe6gYIIH_OFmLg"/>
         <element xmi:type="uml:Class" href="resto-main-uml.uml#_hjm9cNabEe6gYIIH_OFmLg"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hkqtYNabEe6gYIIH_OFmLg" x="434" y="12" width="221" height="21"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_hkqtYNabEe6gYIIH_OFmLg" x="434" y="12" width="221" height="201"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_UiYtYNacEe6gYIIH_OFmLg" type="DataType_Shape_CN">
         <children xmi:type="notation:DecorationNode" xmi:id="_UiZ7gNacEe6gYIIH_OFmLg" type="DataType_NameLabel_CN"/>
@@ -513,7 +513,7 @@
         </children>
         <styles xmi:type="notation:CanonicalStyle" xmi:id="_JWn_gNdgEe6gl-mgkRUsVg"/>
         <element xmi:type="uml:Class" href="resto-main-uml.uml#_HVEXcNdgEe6gl-mgkRUsVg"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HVwT8NdgEe6gl-mgkRUsVg" x="434" y="32" width="221" height="25"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HVwT8NdgEe6gl-mgkRUsVg" x="154" y="132" width="221" height="141"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_KRcB8NdgEe6gl-mgkRUsVg" type="Class_Shape_CN">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MeQe0ddgEe6gl-mgkRUsVg" source="PapyrusCSSForceValue">

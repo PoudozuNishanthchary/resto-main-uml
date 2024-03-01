@@ -14,7 +14,10 @@
       <ownedAttribute xmi:type="uml:Property" xmi:id="_U_ProNdkEe6gl-mgkRUsVg" name="bookingLengthInHour" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_YiU7YNdlEe6gl-mgkRUsVg" name="tablePreference" visibility="private" type="_eIHUoNdkEe6gl-mgkRUsVg"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_YiU7YNdlEe6gl-mgkRUsVg" name="tablePreference" visibility="private" type="_eIHUoNdkEe6gl-mgkRUsVg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3D7HwNetEe6ksOLY9mOnVA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3Cb6ANetEe6ksOLY9mOnVA" value="*"/>
+      </ownedAttribute>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_bQE7ENdlEe6gl-mgkRUsVg" name="bookingStatus" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
@@ -106,10 +109,22 @@
       <ownedAttribute xmi:type="uml:Property" xmi:id="_whSSENdpEe6gl-mgkRUsVg" name="deliveryAddress" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_z5x34NdpEe6gl-mgkRUsVg" name="listOfBookingsMade" visibility="private" type="_jfjTYNdkEe6gl-mgkRUsVg"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_25ZDoNdpEe6gl-mgkRUsVg" name="listOfEventsAttended" visibility="private" type="_k1iO4NdkEe6gl-mgkRUsVg"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_5i8f0NdpEe6gl-mgkRUsVg" name="listOfOrdersMade" visibility="private" type="_l2Ee0NdkEe6gl-mgkRUsVg"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_8OKv8NdpEe6gl-mgkRUsVg" name="listOfNotifications" visibility="private" type="_nY3uUNdkEe6gl-mgkRUsVg"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_z5x34NdpEe6gl-mgkRUsVg" name="listOfBookingsMade" visibility="private" type="_jfjTYNdkEe6gl-mgkRUsVg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_tSJEoNetEe6ksOLY9mOnVA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_svSPMNetEe6ksOLY9mOnVA" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_25ZDoNdpEe6gl-mgkRUsVg" name="listOfEventsAttended" visibility="private" type="_k1iO4NdkEe6gl-mgkRUsVg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_uk5F8NetEe6ksOLY9mOnVA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ulKLsNetEe6ksOLY9mOnVA" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_5i8f0NdpEe6gl-mgkRUsVg" name="listOfOrdersMade" visibility="private" type="_l2Ee0NdkEe6gl-mgkRUsVg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wQ6i4NetEe6ksOLY9mOnVA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wRNd0NetEe6ksOLY9mOnVA" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_8OKv8NdpEe6gl-mgkRUsVg" name="listOfNotifications" visibility="private" type="_nY3uUNdkEe6gl-mgkRUsVg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xhfZ8NetEe6ksOLY9mOnVA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xb2E8NetEe6ksOLY9mOnVA" value="*"/>
+      </ownedAttribute>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_DUX9oNdqEe6gl-mgkRUsVg" name="Customer">
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_DUX9oddqEe6gl-mgkRUsVg" name="firstName">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
