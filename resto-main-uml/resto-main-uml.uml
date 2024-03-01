@@ -4,11 +4,48 @@
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
   <packagedElement xmi:type="uml:Package" xmi:id="_XcHJANabEe6gYIIH_OFmLg" name="package">
-    <packagedElement xmi:type="uml:Class" xmi:id="_hjm9cNabEe6gYIIH_OFmLg" name="Test">
+    <packagedElement xmi:type="uml:Class" xmi:id="_hjm9cNabEe6gYIIH_OFmLg" name="Booking">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_RpWqwNacEe6gYIIH_OFmLg" name="testName">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:DataType" xmi:id="_Uh8BcNacEe6gYIIH_OFmLg" name="void"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_80fUoNdfEe6gl-mgkRUsVg" name="Customer"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_EC-7oNdgEe6gl-mgkRUsVg" name="Birthday"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_HVEXcNdgEe6gl-mgkRUsVg" name="Chef"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_KRE1kNdgEe6gl-mgkRUsVg" name="Driver"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_NPJwQNdgEe6gl-mgkRUsVg" name="Entertainment"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_QWiX8NdgEe6gl-mgkRUsVg" name="Event"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_Yq-TUNdgEe6gl-mgkRUsVg" name="EventAction"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_d6QboNdgEe6gl-mgkRUsVg" name="EventFloor"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_gvFTsNdgEe6gl-mgkRUsVg" name="Floor"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jeRd0NdgEe6gl-mgkRUsVg" name="FloorReport"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mk2NMNdgEe6gl-mgkRUsVg" name="DeliveryOrder"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ptQvoNdgEe6gl-mgkRUsVg" name="TakeawayOrder"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_wGPD4NdgEe6gl-mgkRUsVg" name="FoodDrink"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_zT-LMNdgEe6gl-mgkRUsVg" name="Kitchen"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_2NhyQNdgEe6gl-mgkRUsVg" name="KitchenReport"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_5bs-cNdgEe6gl-mgkRUsVg" name="Main"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_70Z7MNdgEe6gl-mgkRUsVg" name="Manager"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_-tHNsNdgEe6gl-mgkRUsVg" name="Menu"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Borm8NdhEe6gl-mgkRUsVg" name="Notification"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_Ggg4kNdhEe6gl-mgkRUsVg" name="NotifyAction"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Jd4ooNdhEe6gl-mgkRUsVg" name="OfficeParty"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_MygbENdhEe6gl-mgkRUsVg" name="Order"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_PU9JsNdhEe6gl-mgkRUsVg" name="Report"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_QyamMNdhEe6gl-mgkRUsVg" name="OrderAction"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_VUBwMNdhEe6gl-mgkRUsVg" name="Retirement"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_X6c_4NdhEe6gl-mgkRUsVg" name="Seat"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_bHKMcNdhEe6gl-mgkRUsVg" name="ShiftReport"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_e6U8ENdhEe6gl-mgkRUsVg" name="Staff"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_rDBMMNdhEe6gl-mgkRUsVg" name="SystemController"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_uEagoNdhEe6gl-mgkRUsVg" name="Table"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_xDmOkNdhEe6gl-mgkRUsVg" name="TableReservationAction"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_1D-TwNdhEe6gl-mgkRUsVg" name="UIManager"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_4gQ0cNdhEe6gl-mgkRUsVg" name="User"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_7OCpUNdhEe6gl-mgkRUsVg" name="UserManagement"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_-UNJANdhEe6gl-mgkRUsVg" name="UserReport"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_BG220NdiEe6gl-mgkRUsVg" name="Waiter"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_X3y4ANdiEe6gl-mgkRUsVg" name="TableReservationAction"/>
   </packagedElement>
 </uml:Model>
