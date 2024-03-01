@@ -953,4 +953,15 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wh1SINgNEe6ksOLY9mOnVA" value="*"/>
     </ownedEnd>
   </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_-fjKMNgNEe6ksOLY9mOnVA" memberEnd="_-fv-gNgNEe6ksOLY9mOnVA _-fxzsdgNEe6ksOLY9mOnVA" navigableOwnedEnd="_-fv-gNgNEe6ksOLY9mOnVA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-fvXcNgNEe6ksOLY9mOnVA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-fvXcdgNEe6ksOLY9mOnVA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-fxzsdgNEe6ksOLY9mOnVA" type="_uEagoNdhEe6gl-mgkRUsVg" association="_-fjKMNgNEe6ksOLY9mOnVA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GFZhQNgOEe6ksOLY9mOnVA" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-fv-gNgNEe6ksOLY9mOnVA" type="_X6c_4NdhEe6gl-mgkRUsVg" aggregation="composite" association="_-fjKMNgNEe6ksOLY9mOnVA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ch6MYNgOEe6ksOLY9mOnVA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
 </uml:Model>
