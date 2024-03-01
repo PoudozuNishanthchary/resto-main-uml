@@ -313,7 +313,25 @@
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_QWiX8NdgEe6gl-mgkRUsVg" name="Event"/>
-    <packagedElement xmi:type="uml:Interface" xmi:id="_Yq-TUNdgEe6gl-mgkRUsVg" name="EventAction"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_Yq-TUNdgEe6gl-mgkRUsVg" name="EventAction">
+      <ownedReception xmi:type="uml:Reception" xmi:id="_XulKoNevEe6ksOLY9mOnVA" name="createNewEvent" isAbstract="true">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_XulKodevEe6ksOLY9mOnVA" name="newEvent" type="_QWiX8NdgEe6gl-mgkRUsVg"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_XulKotevEe6ksOLY9mOnVA" type="_QWiX8NdgEe6gl-mgkRUsVg" direction="return"/>
+      </ownedReception>
+      <ownedReception xmi:type="uml:Reception" xmi:id="_f7COsNevEe6ksOLY9mOnVA" name="createNewEvent" isAbstract="true">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_f7COsdevEe6ksOLY9mOnVA" name="user" type="_4gQ0cNdhEe6gl-mgkRUsVg"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_f7COstevEe6ksOLY9mOnVA" name="newEvent" type="_QWiX8NdgEe6gl-mgkRUsVg"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_f7COs9evEe6ksOLY9mOnVA" type="_Uh8BcNacEe6gYIIH_OFmLg" direction="return"/>
+      </ownedReception>
+      <ownedReception xmi:type="uml:Reception" xmi:id="_rCd2INevEe6ksOLY9mOnVA" name="editEventDetails">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_rCd2IdevEe6ksOLY9mOnVA" name="event" type="_QWiX8NdgEe6gl-mgkRUsVg" effect="update"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_rCd2ItevEe6ksOLY9mOnVA" name="attributeName" effect="update">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_rCd2I9evEe6ksOLY9mOnVA" name="newValue" type="_0ts9QNdrEe6gl-mgkRUsVg" effect="update"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_rCd2JNevEe6ksOLY9mOnVA" type="_Uh8BcNacEe6gYIIH_OFmLg" direction="return" effect="update"/>
+      </ownedReception>
+    </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_d6QboNdgEe6gl-mgkRUsVg" name="EventFloor"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_gvFTsNdgEe6gl-mgkRUsVg" name="Floor"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_jeRd0NdgEe6gl-mgkRUsVg" name="FloorReport"/>
