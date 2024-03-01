@@ -662,7 +662,34 @@
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_7OCpUNdhEe6gl-mgkRUsVg" name="UserManagement"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_7OCpUNdhEe6gl-mgkRUsVg" name="UserManagement">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_10bFkNfrEe6ksOLY9mOnVA" name="userList" visibility="private" type="_urHM4NdkEe6gl-mgkRUsVg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_G7xyoNftEe6ksOLY9mOnVA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GdYmcNftEe6ksOLY9mOnVA" value="*"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_7cHt4NfrEe6ksOLY9mOnVA" name="UserManagement">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_7cHt4dfrEe6ksOLY9mOnVA" type="_okx2QNewEe6ksOLY9mOnVA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_KPnXYNfsEe6ksOLY9mOnVA" name="getListOfAllUsers">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_KPnXYdfsEe6ksOLY9mOnVA" type="_urHM4NdkEe6gl-mgkRUsVg" direction="return" effect="read"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_RYYw4NfsEe6ksOLY9mOnVA" name="addNewUser">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_RYYw4dfsEe6ksOLY9mOnVA" name="newUser" type="_4gQ0cNdhEe6gl-mgkRUsVg" effect="create"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_RYYw4tfsEe6ksOLY9mOnVA" type="_Uh8BcNacEe6gYIIH_OFmLg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_fAvc8NfsEe6ksOLY9mOnVA" name="removeUser">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_fAvc8dfsEe6ksOLY9mOnVA" name="searchUser" type="_4gQ0cNdhEe6gl-mgkRUsVg" effect="delete"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_fAvc8tfsEe6ksOLY9mOnVA" type="_Uh8BcNacEe6gYIIH_OFmLg" direction="return" effect="delete"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_9ifvENfsEe6ksOLY9mOnVA" name="editUserDetails">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_9ifvEdfsEe6ksOLY9mOnVA" name="searchUser" type="_4gQ0cNdhEe6gl-mgkRUsVg" effect="update"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_9ifvEtfsEe6ksOLY9mOnVA" name="attributeName" effect="update">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_9ifvE9fsEe6ksOLY9mOnVA" name="newValue" type="_0ts9QNdrEe6gl-mgkRUsVg" effect="update"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_9ifvFNfsEe6ksOLY9mOnVA" type="_Uh8BcNacEe6gYIIH_OFmLg" direction="return" effect="update"/>
+      </ownedOperation>
+    </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_-UNJANdhEe6gl-mgkRUsVg" name="UserReport"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_BG220NdiEe6gl-mgkRUsVg" name="Waiter"/>
     <packagedElement xmi:type="uml:Interface" xmi:id="_X3y4ANdiEe6gl-mgkRUsVg" name="TableReservationAction">
