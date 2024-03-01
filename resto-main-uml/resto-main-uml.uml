@@ -274,7 +274,44 @@
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_fXqt0tetEe6ksOLY9mOnVA" type="_Uh8BcNacEe6gYIIH_OFmLg" direction="return" effect="update"/>
       </ownedOperation>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_NPJwQNdgEe6gl-mgkRUsVg" name="Entertainment"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_NPJwQNdgEe6gl-mgkRUsVg" name="Entertainment">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_IuuVkNeuEe6ksOLY9mOnVA" name="entertainerName" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_MKKhsNeuEe6ksOLY9mOnVA" name="isWeekendSlot" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ozbBINeuEe6ksOLY9mOnVA" name="Entertainment">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ozboMNeuEe6ksOLY9mOnVA" name="eventCreator" type="_urHM4NdkEe6gl-mgkRUsVg"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ozboMdeuEe6ksOLY9mOnVA" name="tablesRequest" type="_eIHUoNdkEe6gl-mgkRUsVg"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ozboMteuEe6ksOLY9mOnVA" name="eventTitle">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ozboM9euEe6ksOLY9mOnVA" name="eventDate" type="_5W9hANdjEe6gl-mgkRUsVg"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ozboNNeuEe6ksOLY9mOnVA" name="eventTime" type="_6k_aYNdjEe6gl-mgkRUsVg"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ozboNdeuEe6ksOLY9mOnVA" name="maxNumOfAttendees">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ozboNteuEe6ksOLY9mOnVA" name="eventDescription">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_w_KTgNeuEe6ksOLY9mOnVA" name="checksEventIsOnWeekend">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_w_KTgdeuEe6ksOLY9mOnVA" name="event" type="_QWiX8NdgEe6gl-mgkRUsVg" effect="read"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_w_KTgteuEe6ksOLY9mOnVA" direction="return" effect="read">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_8PGWsNeuEe6ksOLY9mOnVA" name="setEntertainerName">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_8PGWsdeuEe6ksOLY9mOnVA" name="entertainer">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_-OliMNeuEe6ksOLY9mOnVA" type="_Uh8BcNacEe6gYIIH_OFmLg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_Bn3LINevEe6ksOLY9mOnVA" name="getEntertainerName">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_Bn3LIdevEe6ksOLY9mOnVA" type="_Uh8BcNacEe6gYIIH_OFmLg" direction="return" effect="read"/>
+      </ownedOperation>
+    </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_QWiX8NdgEe6gl-mgkRUsVg" name="Event"/>
     <packagedElement xmi:type="uml:Interface" xmi:id="_Yq-TUNdgEe6gl-mgkRUsVg" name="EventAction"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_d6QboNdgEe6gl-mgkRUsVg" name="EventFloor"/>
