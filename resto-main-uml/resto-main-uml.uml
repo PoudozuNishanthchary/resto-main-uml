@@ -231,7 +231,34 @@
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_Rny1YtdpEe6gl-mgkRUsVg" type="_Uh8BcNacEe6gYIIH_OFmLg" direction="return" effect="update"/>
       </ownedOperation>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_KRE1kNdgEe6gl-mgkRUsVg" name="Driver"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_KRE1kNdgEe6gl-mgkRUsVg" name="Driver">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_1pY44NesEe6ksOLY9mOnVA" name="isAvailable" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_A8GjQNetEe6ksOLY9mOnVA" name="Driver">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_A8HKUNetEe6ksOLY9mOnVA" name="firstName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_A8HKUdetEe6ksOLY9mOnVA" name="lastName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_A8HKUtetEe6ksOLY9mOnVA" name="username">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_HBhCUNetEe6ksOLY9mOnVA" name="isAvailable">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_HBhCUdetEe6ksOLY9mOnVA" direction="return" effect="read">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_L2yIINetEe6ksOLY9mOnVA" name="setAvailability">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_L2yIIdetEe6ksOLY9mOnVA" type="_Uh8BcNacEe6gYIIH_OFmLg" direction="return" effect="update"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_fXqt0NetEe6ksOLY9mOnVA" name="updateOrderStatus" isAbstract="true">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_fXqt0detEe6ksOLY9mOnVA" name="completedOrder" type="_MygbENdhEe6gl-mgkRUsVg" effect="update"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_fXqt0tetEe6ksOLY9mOnVA" type="_Uh8BcNacEe6gYIIH_OFmLg" direction="return" effect="update"/>
+      </ownedOperation>
+    </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_NPJwQNdgEe6gl-mgkRUsVg" name="Entertainment"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_QWiX8NdgEe6gl-mgkRUsVg" name="Event"/>
     <packagedElement xmi:type="uml:Interface" xmi:id="_Yq-TUNdgEe6gl-mgkRUsVg" name="EventAction"/>
