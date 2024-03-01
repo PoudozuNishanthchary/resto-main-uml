@@ -582,7 +582,48 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_bHKMcNdhEe6gl-mgkRUsVg" name="ShiftReport"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_e6U8ENdhEe6gl-mgkRUsVg" name="Staff"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_rDBMMNdhEe6gl-mgkRUsVg" name="SystemController"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_uEagoNdhEe6gl-mgkRUsVg" name="Table"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_uEagoNdhEe6gl-mgkRUsVg" name="Table">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_YhJVkNfnEe6ksOLY9mOnVA" name="tableName" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_bzqPMNfnEe6ksOLY9mOnVA" name="seats" visibility="private" type="_C6hFcNdlEe6gl-mgkRUsVg">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_1eG-sNfoEe6ksOLY9mOnVA" value="*"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_qf-SoNfnEe6ksOLY9mOnVA" name="Table">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_qf-SodfnEe6ksOLY9mOnVA" name="tableName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_qf-SotfnEe6ksOLY9mOnVA" name="numOfSeats">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_v_AuMNfnEe6ksOLY9mOnVA" name="getTableName">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_v_BVQNfnEe6ksOLY9mOnVA" direction="return" effect="read">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_NtmeANfoEe6ksOLY9mOnVA" name="getNumberOfSeats">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_NtmeAdfoEe6ksOLY9mOnVA" direction="return" effect="read">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_cQijANfoEe6ksOLY9mOnVA" name="bookSeats">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_cQijAdfoEe6ksOLY9mOnVA" name="seatsToBook" effect="update">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_cQijAtfoEe6ksOLY9mOnVA" type="_Uh8BcNacEe6gYIIH_OFmLg" direction="return" effect="update"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_iJ4U8NfoEe6ksOLY9mOnVA" name="isTableFullyBooked">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_iJ4U8dfoEe6ksOLY9mOnVA" direction="return" effect="read">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_o8QnsNfoEe6ksOLY9mOnVA" name="checksHowManySeatsAvailable">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_o8QnsdfoEe6ksOLY9mOnVA" direction="return" effect="read">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_xDmOkNdhEe6gl-mgkRUsVg" name="TableReservationAction"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_1D-TwNdhEe6gl-mgkRUsVg" name="UIManager"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_4gQ0cNdhEe6gl-mgkRUsVg" name="User"/>
