@@ -630,7 +630,21 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_7OCpUNdhEe6gl-mgkRUsVg" name="UserManagement"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_-UNJANdhEe6gl-mgkRUsVg" name="UserReport"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_BG220NdiEe6gl-mgkRUsVg" name="Waiter"/>
-    <packagedElement xmi:type="uml:Interface" xmi:id="_X3y4ANdiEe6gl-mgkRUsVg" name="TableReservationAction"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_X3y4ANdiEe6gl-mgkRUsVg" name="TableReservationAction">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_HPIJQNfpEe6ksOLY9mOnVA" name="requestTableReservation">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_HPIJQdfpEe6ksOLY9mOnVA" name="newBooking" type="_hjm9cNabEe6gYIIH_OFmLg"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_HPIJQtfpEe6ksOLY9mOnVA" type="_hjm9cNabEe6gYIIH_OFmLg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_R_BacNfpEe6ksOLY9mOnVA" name="cancelTableReservation">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_R_BacdfpEe6ksOLY9mOnVA" name="booking" type="_hjm9cNabEe6gYIIH_OFmLg" effect="delete"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_R_BactfpEe6ksOLY9mOnVA" name="customer" type="_80fUoNdfEe6gl-mgkRUsVg" effect="delete"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_R_Bac9fpEe6ksOLY9mOnVA" type="_Uh8BcNacEe6gYIIH_OFmLg" direction="return" effect="delete"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_bj_woNfpEe6ksOLY9mOnVA" name="cancelTableReservation">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_bj_wodfpEe6ksOLY9mOnVA" name="booking" type="_hjm9cNabEe6gYIIH_OFmLg" effect="delete"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_bj_wotfpEe6ksOLY9mOnVA" type="_Uh8BcNacEe6gYIIH_OFmLg" direction="return" effect="delete"/>
+      </ownedOperation>
+    </packagedElement>
     <packagedElement xmi:type="uml:DataType" xmi:id="_5W9hANdjEe6gl-mgkRUsVg" name="LocaleDate"/>
     <packagedElement xmi:type="uml:DataType" xmi:id="_6k_aYNdjEe6gl-mgkRUsVg" name="LocaleTime"/>
     <packagedElement xmi:type="uml:DataType" xmi:id="_eIHUoNdkEe6gl-mgkRUsVg" name="List&lt;Table>"/>
