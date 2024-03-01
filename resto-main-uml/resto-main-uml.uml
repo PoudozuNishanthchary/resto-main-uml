@@ -557,7 +557,13 @@
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
-    <packagedElement xmi:type="uml:Interface" xmi:id="_Ggg4kNdhEe6gl-mgkRUsVg" name="NotifyAction"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_Ggg4kNdhEe6gl-mgkRUsVg" name="NotifyAction">
+      <ownedReception xmi:type="uml:Reception" xmi:id="_JzLbYNfeEe6ksOLY9mOnVA" name="notifyCustomer" isAbstract="true">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_JzMCcNfeEe6ksOLY9mOnVA" name="customer" type="_80fUoNdfEe6gl-mgkRUsVg"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_JzMCcdfeEe6ksOLY9mOnVA" name="newNotification" type="_Borm8NdhEe6gl-mgkRUsVg"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_JzMCctfeEe6ksOLY9mOnVA" type="_Uh8BcNacEe6gYIIH_OFmLg" direction="return"/>
+      </ownedReception>
+    </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_Jd4ooNdhEe6gl-mgkRUsVg" name="OfficeParty"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_MygbENdhEe6gl-mgkRUsVg" name="Order"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_PU9JsNdhEe6gl-mgkRUsVg" name="Report"/>
