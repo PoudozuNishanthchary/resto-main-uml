@@ -236,6 +236,9 @@
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_hmp7Q9doEe6gl-mgkRUsVg" name="username">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_9isLANiqEe6PMdU613Y8JQ" name="hasAdminRight">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_qow08NdoEe6gl-mgkRUsVg" name="chooseDailySpecial">
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_qow08ddoEe6gl-mgkRUsVg" name="item" type="_wGPD4NdgEe6gl-mgkRUsVg" effect="update"/>
@@ -605,6 +608,51 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_e6U8ENdhEe6gl-mgkRUsVg" name="Staff">
       <generalization xmi:type="uml:Generalization" xmi:id="_UcMLMNgPEe6ksOLY9mOnVA" general="_4gQ0cNdhEe6gl-mgkRUsVg"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_-2E68NipEe6PMdU613Y8JQ" name="numOfHoursToWork" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Cr9AUNiqEe6PMdU613Y8JQ" name="numOfTotalHoursWorked" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_FZVzoNiqEe6PMdU613Y8JQ" name="hasAdminRight" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_POYmINiqEe6PMdU613Y8JQ" name="Staff">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_POYmIdiqEe6PMdU613Y8JQ" name="firstName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_POYmItiqEe6PMdU613Y8JQ" name="lastName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_POYmI9iqEe6PMdU613Y8JQ" name="username">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_POYmJNiqEe6PMdU613Y8JQ" name="hasAdminRight">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_U-qisNiqEe6PMdU613Y8JQ" name="setNumberOfHoursToWork">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_U-qisdiqEe6PMdU613Y8JQ" name="hours">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_U-qistiqEe6PMdU613Y8JQ" type="_Uh8BcNacEe6gYIIH_OFmLg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_aJGnQNiqEe6PMdU613Y8JQ" name="setNumberOfTotalHoursWorked">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_aJGnQdiqEe6PMdU613Y8JQ" name="hours">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_aJGnQtiqEe6PMdU613Y8JQ" type="_Uh8BcNacEe6gYIIH_OFmLg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_et5BENiqEe6PMdU613Y8JQ" name="getNumberOfHoursToWork">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_et5BEdiqEe6PMdU613Y8JQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_hbq18NiqEe6PMdU613Y8JQ" name="getNumberOfHoursWorked">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_hbq18diqEe6PMdU613Y8JQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_rDBMMNdhEe6gl-mgkRUsVg" name="SystemController" isAbstract="true"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_uEagoNdhEe6gl-mgkRUsVg" name="Table">
