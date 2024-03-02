@@ -1118,6 +1118,51 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_H9EPsNgdEe6ksOLY9mOnVA" name="Staff">
       <generalization xmi:type="uml:Generalization" xmi:id="_llDBMNgdEe6ksOLY9mOnVA" general="_D4Y5UNgdEe6ksOLY9mOnVA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_W3RhkNiTEe6PMdU613Y8JQ" name="numOfHoursToWork" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_a_X_YNiTEe6PMdU613Y8JQ" name="numOfTotalHoursWorked" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_zCjEgNiTEe6PMdU613Y8JQ" name="hasAdminRight" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_C5lOoNiUEe6PMdU613Y8JQ" name="Staff">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_6rcdoNiVEe6PMdU613Y8JQ" name="firstName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_8HMC4NiVEe6PMdU613Y8JQ" name="lastName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_-IX3gNiVEe6PMdU613Y8JQ" name="username">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_mtLYYNiVEe6PMdU613Y8JQ" name="hasAdminRight">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_Lyd64NiUEe6PMdU613Y8JQ" name="setNumberOfHoursToWork">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_Lyd64diUEe6PMdU613Y8JQ" name="hours">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_Lyd64tiUEe6PMdU613Y8JQ" type="_Uh8BcNacEe6gYIIH_OFmLg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_RkFUMNiUEe6PMdU613Y8JQ" name="setNumberOfTotalHoursWorked">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_RkFUMdiUEe6PMdU613Y8JQ" name="hours">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_RkFUMtiUEe6PMdU613Y8JQ" type="_Uh8BcNacEe6gYIIH_OFmLg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_aGlEQNiVEe6PMdU613Y8JQ" name="getNumberOfHoursToWork">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_aGlEQdiVEe6PMdU613Y8JQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_ga8lUNiVEe6PMdU613Y8JQ" name="getNumberOfHoursWorked">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_ga8lUdiVEe6PMdU613Y8JQ" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_JvYh4NgdEe6ksOLY9mOnVA" name="Customer">
       <generalization xmi:type="uml:Generalization" xmi:id="_mQwQoNgdEe6ksOLY9mOnVA" general="_D4Y5UNgdEe6ksOLY9mOnVA"/>
@@ -1130,6 +1175,32 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_RpIFUNgdEe6ksOLY9mOnVA" name="Chef">
       <generalization xmi:type="uml:Generalization" xmi:id="_on-msNgdEe6ksOLY9mOnVA" general="_H9EPsNgdEe6ksOLY9mOnVA"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_X1SFINiXEe6PMdU613Y8JQ" name="Chef">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_X1SsMNiXEe6PMdU613Y8JQ" name="firstName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_X1TTQNiXEe6PMdU613Y8JQ" name="lastName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_X1TTQdiXEe6PMdU613Y8JQ" name="username">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_X1TTQtiXEe6PMdU613Y8JQ" name="hasAdminRight">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_kDZAwNiXEe6PMdU613Y8JQ" name="chooseDailySpecial">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_kDZAwdiXEe6PMdU613Y8JQ" name="item" type="_wGPD4NdgEe6gl-mgkRUsVg"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_kDZAwtiXEe6PMdU613Y8JQ" type="_Uh8BcNacEe6gYIIH_OFmLg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_te7HENiXEe6PMdU613Y8JQ" name="createNewMenuItem">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_te7HEdiXEe6PMdU613Y8JQ" name="newItem" type="_wGPD4NdgEe6gl-mgkRUsVg"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_te7HEtiXEe6PMdU613Y8JQ" type="_Uh8BcNacEe6gYIIH_OFmLg" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_3risENiXEe6PMdU613Y8JQ" name="updateOrderStatus" isAbstract="true">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_3risEdiXEe6PMdU613Y8JQ" name="completedOrder" type="_MygbENdhEe6gl-mgkRUsVg"/>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_3risEtiXEe6PMdU613Y8JQ" type="_Uh8BcNacEe6gYIIH_OFmLg" direction="return"/>
+      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_SVHooNgdEe6ksOLY9mOnVA" name="Driver">
       <generalization xmi:type="uml:Generalization" xmi:id="_pTtEQNgdEe6ksOLY9mOnVA" general="_H9EPsNgdEe6ksOLY9mOnVA"/>
