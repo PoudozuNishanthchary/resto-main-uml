@@ -749,9 +749,10 @@
           <element xmi:type="uml:Interface" href="resto-main-uml.uml#_Yq-TUNdgEe6gl-mgkRUsVg"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Yr9KwddgEe6gl-mgkRUsVg" x="432" y="132" width="161" height="41"/>
         </children>
-        <children xmi:type="notation:Shape" xmi:id="_d6j9oNdgEe6gl-mgkRUsVg" type="Class_Shape_CN" fillColor="13420443">
+        <children xmi:type="notation:Shape" xmi:id="_d6j9oNdgEe6gl-mgkRUsVg" type="Class_Shape_CN">
           <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_f6-WMNdgEe6gl-mgkRUsVg" source="PapyrusCSSForceValue">
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_f6-WMddgEe6gl-mgkRUsVg" key="canonical" value="true"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dtJSUNlFEe6eKtq0FE6weA" key="fillColor" value="true"/>
           </eAnnotations>
           <children xmi:type="notation:DecorationNode" xmi:id="_d6lLwNdgEe6gl-mgkRUsVg" type="Class_NameLabel_CN"/>
           <children xmi:type="notation:DecorationNode" xmi:id="_d6lLwddgEe6gl-mgkRUsVg" type="Class_FloatingNameLabel_CN">
@@ -853,9 +854,9 @@
           </children>
           <styles xmi:type="notation:CanonicalStyle" xmi:id="_f69vINdgEe6gl-mgkRUsVg"/>
           <element xmi:type="uml:Class" href="resto-main-uml.uml#_d6QboNdgEe6gl-mgkRUsVg"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d6j9oddgEe6gl-mgkRUsVg" x="3152" y="372" width="181" height="21"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d6j9oddgEe6gl-mgkRUsVg" x="3152" y="372" width="141" height="21"/>
         </children>
-        <children xmi:type="notation:Shape" xmi:id="_gvbR8NdgEe6gl-mgkRUsVg" type="Class_Shape_CN" fontName=".AppleSystemUIFont" fillColor="13420443">
+        <children xmi:type="notation:Shape" xmi:id="_gvbR8NdgEe6gl-mgkRUsVg" type="Class_Shape_CN" fontName=".AppleSystemUIFont">
           <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_iwiOENdgEe6gl-mgkRUsVg" source="PapyrusCSSForceValue">
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_iwjcMNdgEe6gl-mgkRUsVg" key="canonical" value="true"/>
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2j9ckNghEe6ksOLY9mOnVA" key="fontHeight" value="true"/>
@@ -999,11 +1000,12 @@
           </children>
           <styles xmi:type="notation:CanonicalStyle" xmi:id="_iwdVkNdgEe6gl-mgkRUsVg"/>
           <element xmi:type="uml:Class" href="resto-main-uml.uml#_gvFTsNdgEe6gl-mgkRUsVg"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gvbR8ddgEe6gl-mgkRUsVg" x="2875" y="312" width="178" height="21"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gvbR8ddgEe6gl-mgkRUsVg" x="2932" y="312" width="161" height="21"/>
         </children>
-        <children xmi:type="notation:Shape" xmi:id="_jepRQNdgEe6gl-mgkRUsVg" type="Class_Shape_CN" fillColor="13420443">
+        <children xmi:type="notation:Shape" xmi:id="_jepRQNdgEe6gl-mgkRUsVg" type="Class_Shape_CN">
           <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lrGhwNdgEe6gl-mgkRUsVg" source="PapyrusCSSForceValue">
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lrHI0NdgEe6gl-mgkRUsVg" key="canonical" value="true"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_e9bOcNlFEe6eKtq0FE6weA" key="fillColor" value="true"/>
           </eAnnotations>
           <children xmi:type="notation:DecorationNode" xmi:id="_jeqfYNdgEe6gl-mgkRUsVg" type="Class_NameLabel_CN"/>
           <children xmi:type="notation:DecorationNode" xmi:id="_jeqfYddgEe6gl-mgkRUsVg" type="Class_FloatingNameLabel_CN">
@@ -1679,9 +1681,10 @@
           <element xmi:type="uml:Class" href="resto-main-uml.uml#_X6c_4NdhEe6gl-mgkRUsVg"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_X62ogddhEe6gl-mgkRUsVg" x="512" y="572" height="21"/>
         </children>
-        <children xmi:type="notation:Shape" xmi:id="_bHj1ENdhEe6gl-mgkRUsVg" type="Class_Shape_CN" fillColor="13420443">
+        <children xmi:type="notation:Shape" xmi:id="_bHj1ENdhEe6gl-mgkRUsVg" type="Class_Shape_CN">
           <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dkVZgNdhEe6gl-mgkRUsVg" source="PapyrusCSSForceValue">
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dkVZgddhEe6gl-mgkRUsVg" key="canonical" value="true"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_eTSsUNlFEe6eKtq0FE6weA" key="fillColor" value="true"/>
           </eAnnotations>
           <children xmi:type="notation:DecorationNode" xmi:id="_bHkcINdhEe6gl-mgkRUsVg" type="Class_NameLabel_CN"/>
           <children xmi:type="notation:DecorationNode" xmi:id="_bHkcIddhEe6gl-mgkRUsVg" type="Class_FloatingNameLabel_CN">
@@ -3542,8 +3545,8 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_3_h9UNgOEe6ksOLY9mOnVA"/>
       <element xmi:type="uml:Generalization" href="resto-main-uml.uml#_3-mJMNgOEe6ksOLY9mOnVA"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3_h9UdgOEe6ksOLY9mOnVA" points="[3160, 480, -643984, -643984]$[3060, 361, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4BMKMNgOEe6ksOLY9mOnVA" id="(0.3314917127071823,0.0)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4BMKMdgOEe6ksOLY9mOnVA" id="(0.9943820224719101,1.0)"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4BMKMNgOEe6ksOLY9mOnVA" id="(0.425531914893617,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4BMKMdgOEe6ksOLY9mOnVA" id="(1.0,0.9523809523809523)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_6g0OUNgOEe6ksOLY9mOnVA" type="Generalization_Edge" source="_pticcNdgEe6gl-mgkRUsVg" target="_My6DsNdhEe6gl-mgkRUsVg">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sMcCc9gREe6ksOLY9mOnVA" source="PapyrusCSSForceValue">
@@ -3793,6 +3796,7 @@
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gezscNinEe6PMdU613Y8JQ" key="bold" value="true"/>
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ge06kNinEe6PMdU613Y8JQ" key="italic" value="true"/>
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ge06kdinEe6PMdU613Y8JQ" key="fontColor" value="true"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Q4fUENlFEe6eKtq0FE6weA" key="fillColor" value="true"/>
           </eAnnotations>
           <children xmi:type="notation:DecorationNode" xmi:id="_D486ANgdEe6ksOLY9mOnVA" type="Class_NameLabel_CN"/>
           <children xmi:type="notation:DecorationNode" xmi:id="_D486AdgdEe6ksOLY9mOnVA" type="Class_FloatingNameLabel_CN">
@@ -3902,6 +3906,7 @@
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bNvbcNinEe6PMdU613Y8JQ" key="bold" value="true"/>
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bNx3sNinEe6PMdU613Y8JQ" key="italic" value="true"/>
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bNyewNinEe6PMdU613Y8JQ" key="fontColor" value="true"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NM1hsNlFEe6eKtq0FE6weA" key="fillColor" value="true"/>
           </eAnnotations>
           <children xmi:type="notation:DecorationNode" xmi:id="_H91EsNgdEe6ksOLY9mOnVA" type="Class_NameLabel_CN"/>
           <children xmi:type="notation:DecorationNode" xmi:id="_H91EsdgdEe6ksOLY9mOnVA" type="Class_FloatingNameLabel_CN">
@@ -4020,6 +4025,7 @@
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hjKscNinEe6PMdU613Y8JQ" key="bold" value="true"/>
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hjLTgNinEe6PMdU613Y8JQ" key="italic" value="true"/>
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hjLTgdinEe6PMdU613Y8JQ" key="fontColor" value="true"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Vi-tQNlFEe6eKtq0FE6weA" key="fillColor" value="true"/>
           </eAnnotations>
           <children xmi:type="notation:DecorationNode" xmi:id="_Jvsq8NgdEe6ksOLY9mOnVA" type="Class_NameLabel_CN"/>
           <children xmi:type="notation:DecorationNode" xmi:id="_JvtSANgdEe6ksOLY9mOnVA" type="Class_FloatingNameLabel_CN">
@@ -4104,6 +4110,7 @@
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_igVfUNinEe6PMdU613Y8JQ" key="bold" value="true"/>
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_igWGYNinEe6PMdU613Y8JQ" key="italic" value="true"/>
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_igWGYdinEe6PMdU613Y8JQ" key="fontColor" value="true"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UNvYoNlFEe6eKtq0FE6weA" key="fillColor" value="true"/>
           </eAnnotations>
           <children xmi:type="notation:DecorationNode" xmi:id="_RpvJUNgdEe6ksOLY9mOnVA" type="Class_NameLabel_CN"/>
           <children xmi:type="notation:DecorationNode" xmi:id="_RpvJUdgdEe6ksOLY9mOnVA" type="Class_FloatingNameLabel_CN">
