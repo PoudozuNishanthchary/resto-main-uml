@@ -342,7 +342,6 @@
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_d6QboNdgEe6gl-mgkRUsVg" name="EventFloor">
-      <generalization xmi:type="uml:Generalization" xmi:id="_3-mJMNgOEe6ksOLY9mOnVA" general="_gvFTsNdgEe6gl-mgkRUsVg"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_OZqNMNewEe6ksOLY9mOnVA" name="listOfEvents" visibility="private" type="_k1iO4NdkEe6gl-mgkRUsVg">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KRSmoNfREe6ksOLY9mOnVA"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KPkIUNfREe6ksOLY9mOnVA" value="*"/>
@@ -1374,5 +1373,14 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_87n6Qds3Ee6BwIZfEyEfpA" type="_bHKMcNdhEe6gl-mgkRUsVg" association="_87k28Ns3Ee6BwIZfEyEfpA">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zBFm8Ns7Ee6BwIZfEyEfpA"/>
     </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_y8dBwNs_Ee6BwIZfEyEfpA" memberEnd="_y8vVoNs_Ee6BwIZfEyEfpA _y8zAANs_Ee6BwIZfEyEfpA" navigableOwnedEnd="_y8vVoNs_Ee6BwIZfEyEfpA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_y8s5YNs_Ee6BwIZfEyEfpA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_y8uukNs_Ee6BwIZfEyEfpA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_y8zAANs_Ee6BwIZfEyEfpA" type="_jeRd0NdgEe6gl-mgkRUsVg" association="_y8dBwNs_Ee6BwIZfEyEfpA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2bLLYNs_Ee6BwIZfEyEfpA"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_y8vVoNs_Ee6BwIZfEyEfpA" type="_d6QboNdgEe6gl-mgkRUsVg" association="_y8dBwNs_Ee6BwIZfEyEfpA"/>
   </packagedElement>
 </uml:Model>
