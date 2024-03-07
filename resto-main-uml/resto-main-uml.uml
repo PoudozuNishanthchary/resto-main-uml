@@ -222,7 +222,7 @@
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_EC-7oNdgEe6gl-mgkRUsVg" name="Birthday">
-      <generalization xmi:type="uml:Generalization" xmi:id="_tQ0X4NgOEe6ksOLY9mOnVA" general="_QWiX8NdgEe6gl-mgkRUsVg"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_x8Xx0NwQEe62IYb72GKvGQ" general="_QWiX8NdgEe6gl-mgkRUsVg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_HVEXcNdgEe6gl-mgkRUsVg" name="Chef">
       <generalization xmi:type="uml:Generalization" xmi:id="_PaoV0NgPEe6ksOLY9mOnVA" general="_e6U8ENdhEe6gl-mgkRUsVg"/>
@@ -283,7 +283,7 @@
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_NPJwQNdgEe6gl-mgkRUsVg" name="Entertainment">
-      <generalization xmi:type="uml:Generalization" xmi:id="_Ks70cNgLEe6ksOLY9mOnVA" general="_QWiX8NdgEe6gl-mgkRUsVg"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_w9HUQNwQEe62IYb72GKvGQ" general="_QWiX8NdgEe6gl-mgkRUsVg"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_IuuVkNeuEe6ksOLY9mOnVA" name="entertainerName" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
@@ -635,7 +635,7 @@
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_Jd4ooNdhEe6gl-mgkRUsVg" name="OfficeParty">
-      <generalization xmi:type="uml:Generalization" xmi:id="_vSAMgNgOEe6ksOLY9mOnVA" general="_QWiX8NdgEe6gl-mgkRUsVg"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_wVYl4NwQEe62IYb72GKvGQ" general="_QWiX8NdgEe6gl-mgkRUsVg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_MygbENdhEe6gl-mgkRUsVg" name="Order"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_PU9JsNdhEe6gl-mgkRUsVg" name="Report"/>
@@ -650,7 +650,7 @@
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_VUBwMNdhEe6gl-mgkRUsVg" name="Retirement">
-      <generalization xmi:type="uml:Generalization" xmi:id="_xQ_BsNgOEe6ksOLY9mOnVA" general="_QWiX8NdgEe6gl-mgkRUsVg"/>
+      <generalization xmi:type="uml:Generalization" xmi:id="_vsuDYNwQEe62IYb72GKvGQ" general="_QWiX8NdgEe6gl-mgkRUsVg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_X6c_4NdhEe6gl-mgkRUsVg" name="Seat"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_bHKMcNdhEe6gl-mgkRUsVg" name="ShiftReport">
